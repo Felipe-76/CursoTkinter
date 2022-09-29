@@ -26,6 +26,6 @@ botao.pack()
 
 my_img =  ImageTk.PhotoImage(Image.open("img_1.png"))
 my_label = Label(image=my_img)
-my_label.pack()
+my_label.pack()  # Caso a geometria não tivesse sido definida na linha 12 a janela teria o tamanho da foto
 
 root.mainloop()
