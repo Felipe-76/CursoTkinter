@@ -1,6 +1,7 @@
 from tkinter import *
 
 root = Tk()
+root.title("Oi Mundo")
 
 # Creating Label Widget
 mylabel = Label(root, text="Hello World")
